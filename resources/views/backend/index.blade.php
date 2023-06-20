@@ -19,7 +19,9 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/manifest.js') }}"></script>
+    <script src="{{ asset('js/vendor.js') }}"></script>
+    <script defer type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 </head>
 <body class="antialiased">
     <div id="app"></div>

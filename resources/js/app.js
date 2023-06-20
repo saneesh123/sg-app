@@ -1,5 +1,5 @@
-require('./bootstrap');
+import './bootstrap';
 
 //Compnents
 //Admin
-require('../admin/js/Dashboard');
+import '../backend/js/Dashboard';
